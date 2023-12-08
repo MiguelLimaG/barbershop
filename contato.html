@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ptbr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C.A.P.I tech</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<header>
+    <div class="logo"><img src="imagens/loogo.png" /></div>
+    <nav>
+        <a href="index.html">Home </a>
+        <a href="projetos.html">Projetos</a>
+
+        <a href="contato.html">Contatos</a>
+    </nav>
+
+    </div>
+</header>
+
+<body>
+
+    <div class="main2">
+
+        <h2>Entre em Contato</h2> <br><br><br>
+
+        <!-- <form action="https://formsubmit.co/capitech6@gmail.com"
+method="POST"> -->
+        <form>
+            <input type="hidden" name="_next" value="http://127.0.0.1:5500/tabalho%20TCC/contato.html" />
+            <input type="hidden" name="_autoresponse"
+                value="recebemos sua mensagem, obrigado pelo contato e logo responderemos" />
+            <input class="input-verde" type="text" name="name" placeholder="Nome" />
+            <input class="input-verde" type="email" name="email" placeholder="Email" />
+            <input class="input-verde" type="text" name="subject" placeholder="Assunto" />
+            <textarea class="input-verde" name="message" placeholder="Mensagem"></textarea>
+            <button class="button-green" type="button" onclick="EnviarEmail()">Enviar</button>
+        </form>
+    </div>
+
+    <script>
+        function EnviarEmail() {
+            alert('Email enviado com sucesso, entraremos em contato em breve ...')
+        } 
+    </script>
+
+</body>
+<footer>
+    <div class="footer-bar">
+        <a href="https://www.instagram.com/miguellzzs/" target="blank">
+            <img src="https://seeklogo.com/images/I/instagram-logo-1494D6FE63-seeklogo.com.png" height="25px"
+                width="25px" />
+        </a>
+
+        <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank">
+            <img src="imagens/e-mail.png" height="25px" width="25px" />
+    </div>
+    
+    </div>
+</footer>
+
+</html>
